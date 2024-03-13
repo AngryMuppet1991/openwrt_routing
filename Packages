@@ -1,3 +1,18 @@
+Package: ahcpd
+Version: 0.53-3
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23845
+Filename: ahcpd_0.53-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24676
+SHA256sum: e158372dd02939d7367ce7a0f1743838a2bcae96555de5e3ca0fa9c4301705b7
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
 Package: babeld
 Version: 1.13.1-1
 Depends: libc, libubus20230605, libubox20230523
@@ -13,4 +28,352 @@ Description:  Babel is a loop-avoiding distance-vector routing protocol for IPv6
  Cisco's EIGRP, but is designed to work well not only in wired networks but
  also in wireless mesh networks, and has been extended with support for
  overlay networks. Babel is an IETF standard protocol (RFC 8966).
+
+Package: bmx7-iwinfo
+Version: 7.1.1-5
+Depends: libc, bmx7, libiwinfo20230701
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4160
+Filename: bmx7-iwinfo_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4929
+SHA256sum: bbb94f3f0f292de5143ad3f126fe2cc3ea382618aa00fcaf715183a9a80a0db9
+Description:  link characteristics plugin via libiwinfo (recommended!)
+
+Package: bmx7-json
+Version: 7.1.1-5
+Depends: libc, bmx7, libjson-c5
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7699
+Filename: bmx7-json_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8512
+SHA256sum: 587fbf6448af90ccc6a6252d79c5449d8c206ddb91aeeb0dc72003413743f8da
+Description:  json plugin based on json-c
+
+Package: bmx7-sms
+Version: 7.1.1-5
+Depends: libc, bmx7
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5340
+Filename: bmx7-sms_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6093
+SHA256sum: 8e069c988fdea99d36bc639da4799cf460e9bb26419c47c39e4793905892135c
+Description:  sms plugin
+
+Package: bmx7-table
+Version: 7.1.1-5
+Depends: libc, bmx7, bmx7-tun
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9663
+Filename: bmx7-table_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10443
+SHA256sum: 7c68a6bf75d770f65d3ed6f696ac3766e7fa3ddc9b4654252cb475f7fd54315b
+Description:  plugin to announce routes from tables via tunnels
+
+Package: bmx7-topology
+Version: 7.1.1-5
+Depends: libc, bmx7
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5063
+Filename: bmx7-topology_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5797
+SHA256sum: c14b314e5faf00dc9eb9949ce7637973077cf0166865626f458173594b05384a
+Description:  topology plugin
+
+Package: bmx7-tun
+Version: 7.1.1-5
+Depends: libc, bmx7, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25901
+Filename: bmx7-tun_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26626
+SHA256sum: e52a6c625bbdcbdf1b0324118d12689e376f26665c12fe9cac73ee16591e3cf9
+Description:  ipip-based tunnel plugin (recommended!)
+
+Package: bmx7-uci-config
+Version: 7.1.1-5
+Depends: libc, bmx7, libuci20130104
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8050
+Filename: bmx7-uci-config_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8906
+SHA256sum: f4e475b49e852dea961556ce7535905cec6226cc15b4ac1dcfb55a7dec6247d5
+Description:  configuration plugin based on uci (recommended!)
+
+Package: bmx7
+Version: 7.1.1-5
+Depends: libc, zlib, libmbedtls12, libiwinfo20230701
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 176879
+Filename: bmx7_7.1.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 177333
+SHA256sum: 5937b6bb1fcf0052cbadfcff5844465df8d4da1a49bd6bc78ca551fd07413e46
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
+
+Package: olsrd-mod-arprefresh
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1976
+Filename: olsrd-mod-arprefresh_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2759
+SHA256sum: ea46628a67f69a1acfbdc864a7708d757efc51bbf4a1a2743bb60d6db5defeb2
+Description:  Kernel ARP cache refresh plugin
+
+Package: olsrd-mod-bmf
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd, kmod-tun
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11931
+Filename: olsrd-mod-bmf_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12725
+SHA256sum: 18ad84fdf30cb96d62758f5d6350d32216947fdb97cf4a9b6b0fcff266a98e30
+Description:  Basic multicast forwarding plugin
+
+Package: olsrd-mod-dot-draw
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3827
+Filename: olsrd-mod-dot-draw_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4576
+SHA256sum: ed866bac6655ef1ed603c6ac8be08e003dc89b5b7307646f6d83dfcdb04a15d1
+Description:  Dot topology information plugin
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2283
+Filename: olsrd-mod-dyn-gw-plain_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3039
+SHA256sum: 90be922a50f6c02147c6bfab2972d3984a9735c3b75f65e96c92004d91796822
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-dyn-gw
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3960
+Filename: olsrd-mod-dyn-gw_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4714
+SHA256sum: bb510c0827568cb44a1d32e68e32cd015cf01597ff5ff3177ae78e6adc1881e8
+Description:  Dynamic internet gateway plugin
+
+Package: olsrd-mod-filtergw
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2527
+Filename: olsrd-mod-filtergw_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3266
+SHA256sum: 61e4c6e04b0b31b22e4bc9aeaeb59d1bcdb47270543ccb75dc896778a6993456
+Description:  Filter Gateway plugin
+
+Package: olsrd-mod-httpinfo
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 32565
+Filename: olsrd-mod-httpinfo_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 33417
+SHA256sum: 69be8fbd3dd41ecf41cf10348178013e9c8c1cd61a30cd815ce2dd5d839b9d0b
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24529
+Filename: olsrd-mod-jsoninfo_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25274
+SHA256sum: 1fafea548929cf2dd9aac3299c6f9066e80168b4e422590b4d4ee41edfe0d7e9
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-mdns
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8984
+Filename: olsrd-mod-mdns_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9767
+SHA256sum: 47a9d6ccf566ce5827b0eb0428bd935fc04a105bf0dfd32467afa5260c2eadd6
+Description:  MDNS/Zeroconf/Bonjour packet distribution
+
+Package: olsrd-mod-nameservice
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10802
+Filename: olsrd-mod-nameservice_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11580
+SHA256sum: 194e0970296d0cdca122d9b12fb1dc8ed9ae8f805d31e11d9e0b542ba78e2d3a
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-netjson
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13726
+Filename: olsrd-mod-netjson_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14471
+SHA256sum: 2714415af5d75ab82b6fa171f2edb4034eff13acc29ab18d8ffd8c50936b89ce
+Description:  netjson plugin with JSON output
+
+Package: olsrd-mod-p2pd
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8195
+Filename: olsrd-mod-p2pd_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9011
+SHA256sum: 88222fd92d3f98a182868c1918d2c65943651edd93355a41690ca24c159bd9b7
+Description:  Peer to Peer Discovery plugin
+
+Package: olsrd-mod-pgraph
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2884
+Filename: olsrd-mod-pgraph_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3627
+SHA256sum: 98d3a00e1f2c7d2a8ac9e6b4551f92d4f92c268181092334bc4a769cce5c05f2
+Description:  output network topology for pgraph
+
+Package: olsrd-mod-pud
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd, libgps30
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 58855
+Filename: olsrd-mod-pud_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59559
+SHA256sum: 4efd14837e970826765ff9f627481c388b4b931ec67a9cbc8bbe28a9e2f0554c
+Description:  Position Update Distribution plugin
+
+Package: olsrd-mod-quagga
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6398
+Filename: olsrd-mod-quagga_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7191
+SHA256sum: e6426ca1f02d8864d2b028981858078f006f27ddcefbc36ccbd3dc5ff95ad9bf
+Description:  Quagga plugin
+
+Package: olsrd-mod-secure
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10340
+Filename: olsrd-mod-secure_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11167
+SHA256sum: 8c60dfc15d5ae3f00faab862806cfb9ebf21366c4480d32ffe13f8cbbf329405
+Description:  Message signing plugin to secure routing domain
+
+Package: olsrd-mod-sgwdynspeed
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4342
+Filename: olsrd-mod-sgwdynspeed_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5125
+SHA256sum: 3c5c138e7d35e9a6745e127ea8599241c168c642a7362c40b717b9dca3e187e9
+Description:  Smart Gateway dynamic speed plugin
+
+Package: olsrd-mod-txtinfo
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15642
+Filename: olsrd-mod-txtinfo_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16400
+SHA256sum: a6ecd22b1bba71787150519ba5d7d1e249cae471f6819341e241ef84f49b76f3
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-watchdog
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1573
+Filename: olsrd-mod-watchdog_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2342
+SHA256sum: 5f0dbb807ac544aaffe6d2bc7cda6a6f6bbb413d68246127ebc0008fb61b30b2
+Description:  Watchdog plugin
+
+Package: olsrd-utils
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1179
+Filename: olsrd-utils_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1942
+SHA256sum: a5ca422735691981bae3f2e82ddaac8a3eaba2fb7bd1369cce3a20a4714dc3ea
+Description:  Utils for OLSRD
+
+Package: olsrd
+Version: 2023-06-12-a9b3f1ac-1
+Depends: libc, libpthread, libubus20230605, iptables, ip6tables
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 140304
+Filename: olsrd_2023-06-12-a9b3f1ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 141105
+SHA256sum: 8214b90db84170241a8c2696293b5d697c6b1fa7addb03dc960ec8e6d1bbdde8
+Description:  OLSR (Optimized Link State Routing) daemon
 
