@@ -1,1 +1,21 @@
+Package: babeld
+Version: 1.13.1-1
+Depends: libc, libubus20230605, libubox20230523
+Source: feeds/routing/babeld
+SourceName: babeld
+License: MIT
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1707126850
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>, Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>, Nick Hainke <vincent@systemli.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67628
+Filename: babeld_1.13.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 68784
+SHA256sum: 7d61cda23f94b91623436c08cd962b010eb11d47e823a10e941cc8ef52c97005
+Description:  Babel is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4
+ with fast convergence properties. It is based on the ideas in DSDV, AODV and
+ Cisco's EIGRP, but is designed to work well not only in wired networks but
+ also in wireless mesh networks, and has been extended with support for
+ overlay networks. Babel is an IETF standard protocol (RFC 8966).
 

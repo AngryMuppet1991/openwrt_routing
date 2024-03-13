@@ -1,0 +1,1 @@
+{"metadata":{"timestamp":"2024-03-13T10:50:23"},"serialNumber":"urn:uuid:2bd9c1a5-314a-467b-825b-25ba8435c4cc","specVersion":"1.4","components":[{"type":"application","version":"1.13.1","licenses":[{"license":{"name":"MIT"}}],"name":"babeld"}],"bomFormat":"CycloneDX","version":1}
