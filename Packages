@@ -37,10 +37,10 @@ Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
 License: GPL-2.0-only ISC MIT
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 48420
+Installed-Size: 48423
 Filename: batctl-default_2023.1-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 49385
-SHA256sum: 628a3bb4823a5897954a859beca0cbd8e94f09a799c0efeb159c8df258765672
+Size: 49394
+SHA256sum: 09debfb5fa21183a11063fdb53f330efa62b9c5a3068faddb2d6fbb15fb12841
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds
